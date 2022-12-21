@@ -189,33 +189,6 @@ body {
   font-size: var(--font-size-base);
   color: var(--color-white);
 }
-.unsplashymeyznzgufg {
-  position: absolute;
-  top: 10.73px;
-  left: 0;
-  background: radial-gradient(
-    50% 50%at 50% 50%,
-    rgba(255, 222, 138, 0.86),
-    #000
-  );
-  width: 1440px;
-  height: 894.53px;
-  opacity: 0.25;
-  mix-blend-mode: overlay;
-}
-.unsplash0w4xlgitrhg-icon {
-  object-fit: cover;
-  opacity: 0.05;
-  mix-blend-mode: screen;
-}
-.group-div5,
-.unsplash0w4xlgitrhg-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1440px;
-  height: 916px;
-}
 .hero {
   align-self: stretch;
   flex: 1;
@@ -238,7 +211,7 @@ body {
   font-weight: 800;
   display: inline-block;
 }
-.group-div6 {
+.group-div5 {
   position: relative;
   width: 1106px;
   height: 76px;
@@ -345,42 +318,18 @@ body {
   align-items: flex-start;
   justify-content: center;
 }
-.unsplashymeyznzgufg1 {
-  position: absolute;
-  top: 6.22px;
-  left: 0;
-  background: radial-gradient(
-    50% 50%at 50% 50%,
-    rgba(255, 222, 138, 0.22),
-    rgba(0, 0, 0, 0.25)
-  );
-  width: 1440px;
-  height: 518.07px;
-  opacity: 0.25;
-}
-.group-div7,
-.unsplash0w4xlgitrhg-icon1 {
-  position: absolute;
-  left: 0;
-  width: 1440px;
-  height: 530.5px;
-}
-.unsplash0w4xlgitrhg-icon1 {
-  top: 0;
-  object-fit: cover;
-  opacity: 0.01;
-  mix-blend-mode: screen;
-}
-.group-div7 {
-  top: 96.5px;
-}
 .contact4,
 .web {
   position: relative;
 }
 .contact4 {
   align-self: stretch;
-  background: linear-gradient(180deg, rgba(38, 38, 38, 0), #111 8.85%);
+  background: radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(252, 221, 236, 0.2),
+      transparent
+    ),
+    linear-gradient(180deg, rgba(38, 38, 38, 0), #111 8.85%);
   height: 627px;
   flex-shrink: 0;
   margin-top: -184px;
