@@ -48,7 +48,7 @@
               </div>
             </div>
           </div>
-          <button class="frame-button">
+          <button id="contact-button" class="frame-button">
             <div class="contact">contact</div>
           </button>
         </div>
@@ -83,20 +83,26 @@
         <div class="frame-div2">
           <div class="frame-div3">
             <div class="innova">chat with us on:</div>
-            <button class="frame-button4">
+            <a href="https://twitter.com/itsOasi" class="frame-button4">
               <img class="icon-twitter" alt="" src="public/-icon-twitter.svg" />
-              <div class="contact">twitter</div></button
-            ><button class="frame-button4">
+              <div class="contact">twitter</div>
+			</a>
+			<a href="https://www.instagram.com/its.innova/" class="frame-button4">
               <img
                 class="icon-instagram"
                 alt=""
                 src="public/-icon-instagram.svg"
               />
               <div class="contact">instagram</div>
-            </button>
+			</a>
           </div>
         </div>
       </div>
     </div>
+	<script>
+		document.getElementById("contact-button").onclick = _ => {
+			document.getElementById("contact").scrollIntoView({block:"end", behavior:"smooth"});
+		}
+	</script>
   </body>
 </html>
