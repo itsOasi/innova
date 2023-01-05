@@ -1,0 +1,50 @@
+.title-parent {
+	position: absolute;
+	height: 100vh;
+	top: 0vw;
+	left: 10vw;
+	flex-direction: row;
+	justify-content: center;
+}
+  
+#catalog {
+	width: 50vw;
+	margin-left: -20vw;
+}
+.action-group{
+	display: none;
+	flex: 0;
+	margin-top: 2em;
+	padding-left: 5vw;
+}
+
+.ai-and-automation-parent{
+	position: absolute;
+	width: 100vw;
+	top: 1em;
+	left: 1em;
+}
+
+.ai-and-automation{
+	top: 80vh;
+}
+
+
+.game-development{
+	left: 65vw;
+}
+.web-development{
+	left: 35vw;
+	top: 90vh;
+}
+
+.v-100 {
+	top: 1em;
+	right: 15vw;
+}
+
+#prouducts{
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}

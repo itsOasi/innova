@@ -6,54 +6,17 @@
 
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./index2.css" />
+	<script src="script.js"></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Source Code Pro:wght@400;800&display=swap"
     />
-	<script src="./script.js" type="module"></script>
   </head>
   <body>
     <div class="web">
       <div class="hero" id="hero">
-        <div class="frame-div">
-          <div class="group-div">
-            <div class="title">
-              <div class="innova">innova</div>
-              <div class="innova1">innova</div>
-              <div class="innova2">innova</div>
-            </div>
-            <div class="hover-cards">
-              <div class="group-div1">
-                <img
-                  class="unsplashohou-5uviyq-icon"
-                  alt=""
-                  src="public/unsplashohou5uviyq@2x.png"
-                />
-                <div class="web-hosting">web hosting</div>
-              </div>
-              <div class="group-div2">
-                <img
-                  class="unsplashbmilykzhkmy-icon"
-                  alt=""
-                  src="public/unsplashbmilykzhkmy@2x.png"
-                />
-                <div class="consulting">consulting</div>
-              </div>
-              <div class="group-div2">
-                <img
-                  class="unsplashbmilykzhkmy-icon"
-                  alt=""
-                  src="public/unsplashbmilykzhkmy1@2x.png"
-                />
-                <div class="game-dev">game dev</div>
-              </div>
-            </div>
-          </div>
-          <button id="contact-button" class="frame-button">
-            <div class="contact">contact</div>
-          </button>
-        </div>
-        <div class="group-div4">
+        <div class="ai-and-automation-parent">
           <div class="ai-and-automation">AI and Automation</div>
           <div class="information-technology-service">
             information technology services
@@ -62,47 +25,75 @@
           <div class="web-development">web development</div>
           <div class="game-development">game development</div>
         </div>
-      </div>
-      <div class="catalog" id="catalog-section">
-        <div class="frame-div1" id="catalog">
-          <div class="group-div5">
-            <div class="rectangle-div"></div>
-            <div class="our-products">our products</div>
+        <div class="hero-inner">
+          <div class="title-parent">
+            <div class="title1">
+              <div class="title2">
+                <img
+                  class="innova-title-11"
+                  alt=""
+                  src="public/innova-title-11@2x.png"
+                />
+              </div>
+              <button class="contact-frame" id="action">
+                <div class="contact7">contact</div>
+              </button>
+            </div>
+            <div class="group-container" id="catalog">
+              <div class="rectangle-group">
+                <div class="group-item"></div>
+                <div class="our-products1">our products</div>
+              </div>
+              <nav class="action-group" id="categories">
+                <button class="contact-frame">
+                  <div class="contact7">games</div></button
+                ><button class="contact-frame">
+                  <div class="contact7">apps</div></button
+                ><button class="contact-frame">
+                  <div class="contact7">business</div>
+                </button>
+              </nav>
+			  <div id="products">
+				<a href="https://itsoasi.github.io/candy_kitty/">Candy Kitty</a>
+			  </div>
+            </div>
           </div>
-          <nav class="frame-nav" id="categories">
-            <button class="frame-button1">
-              <div class="contact">productivity</div></button
-            ><button class="frame-button2">
-              <div class="contact">business</div></button
-            ><button class="frame-button2">
-              <div class="contact">gaming</div>
-            </button>
-          </nav>
-		  <div id="catalog-list">
-		  	
-		  </div>
         </div>
       </div>
-      <div class="contact4" id="contact">
-        <div class="frame-div2">
-          <div class="frame-div3">
-            <div class="innova">chat with us on:</div>
-            <a href="https://twitter.com/itsOasi" class="frame-button4">
-              <img class="icon-twitter" alt="" src="public/-icon-twitter.svg" />
-              <div class="contact">twitter</div>
-			</a>
-			<a href="https://www.instagram.com/its.innova/" class="frame-button4">
+      <div class="contact11" id="contact" data-scroll-to="contact">
+        <div class="contact-child">
+          <div class="chat-with-us-group">
+            <div class="chat-with-us1">chat with us:</div>
+            <button class="icon-twitter-group">
               <img
-                class="icon-instagram"
+                class="icon-twitter1"
                 alt=""
-                src="public/-icon-instagram.svg"
+                src="public/-icon-twitter1.svg"
               />
-              <div class="contact">instagram</div>
-			</a>
+              <div class="contact7">twitter</div></button
+            ><button class="icon-twitter-group">
+              <img
+                class="icon-instagram1"
+                alt=""
+                src="public/-icon-instagram1.svg"
+              />
+              <div class="contact7">instagram</div>
+            </button>
           </div>
         </div>
       </div>
     </div>
-	
+
+    <script>
+      var action = document.getElementById("action");
+      if (action) {
+        action.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='contact']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
   </body>
 </html>

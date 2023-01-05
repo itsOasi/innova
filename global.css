@@ -3,25 +3,22 @@
   --font-source-code-pro: "Source Code Pro";
 
   /* font sizes */
-  --font-size-base: 14px;
-  --font-size-lg: 24px;
-  --font-size-xl: 40px;
-  --font-size-2xl: 96px;
+  --font-size-sm: 14px;
+  --font-size-base: 24px;
+  --font-size-lg: 40px;
 
   /* Colors */
-  --iris-100: #5d5fef;
+  --screen: #111;
   --text: #fcddec;
-  --color-white: #fff;
 
   /* Gaps */
-  --gap-0: 0px;
-  --gap-md: 10px;
+  --gap-sm: 10px;
+  --gap-md: 14px;
 
   /* Paddings */
   --padding-sm: 4px;
   --padding-md: 7px;
 
   /* border radiuses */
-  --br-sm: 1px;
-  --br-md: 2px;
+  --br-md: 1px;
 }
