@@ -1,4 +1,4 @@
 # innova
 ---
-experience life on the edge
+life on the edge
   
