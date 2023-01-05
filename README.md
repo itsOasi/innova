@@ -1,5 +1,4 @@
-
-  # innova
-  ---
-  Delivering technology for work, play, and everything in between
+# innova
+---
+experience life on the edge
   
