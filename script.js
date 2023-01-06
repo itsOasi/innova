@@ -1,8 +1,8 @@
 // Get the data from the sheet
 let prev_width = window.innerWidth;
-let response_threshold = 600;
+let response_threshold = 800;
 window.onload = _ => {
-	 // get the url
+	 // select ui based on screen size
 	let url = document.location.pathname.slice(1);
 	if (window.innerWidth <= response_threshold && !url == "mob.html"){
 		window.location.href = "mob.html";
