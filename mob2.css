@@ -34,7 +34,7 @@
 	width: 100%;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	gap: 1em;
+	gap: .2	em;
 }
 
 #products > .action1{
