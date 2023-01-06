@@ -43,8 +43,30 @@
 	right: 15vw;
 }
 
-#prouducts{
+#products{
+	z-index: 50;
+	position: relative;
 	display: flex;
 	flex-direction: column;
+	align-content: stretch;
+	width: 100%;
+	max-height: 60vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	gap: 1em;
+	padding-top: .2em;
+}
+
+#products > .contact-frame{
+	min-height: 10vw;
+	width: 100%;
+	margin: .1em;
+}
+.item-image{
+	max-height: 3em;
+}
+.item-desc{
+	font-size: medium;
+	font-weight: bold;
+	width: 30em;
 }

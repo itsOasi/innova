@@ -24,3 +24,29 @@
 	align-items: center;
 	justify-content: center;
 }
+
+#products{
+	z-index: 50;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-content: stretch;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	gap: 1em;
+}
+
+#products > .action1{
+	min-height: 20vw;
+	width: 100%;
+	margin: .2em
+}
+.item-image{
+	max-height: 3em;
+}
+.item-desc{
+	font-size: medium;
+	font-weight: bold;
+	width: 30em;
+}
