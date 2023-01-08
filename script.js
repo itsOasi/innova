@@ -7,7 +7,7 @@ window.onload = _ => {
 	if (window.innerWidth <= response_threshold && !url == "mob.html"){
 		window.location.href = "mob.html";
 	}
-	if (window.innerWidth >= response_threshold && url == "mob.html"){
+	if (window.innerWidth >= response_threshold){
 		window.location.href = "index.html";
 	}
 } 
