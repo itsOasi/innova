@@ -3,9 +3,9 @@
   --font-source-code-pro: "Source Code Pro";
 
   /* font sizes */
-  --font-size-sm: 14px;
-  --font-size-base: 24px;
-  --font-size-lg: 40px;
+  --font-size-base: 14px;
+  --font-size-lg: 24px;
+  --font-size-xl: 40px;
 
   /* Colors */
   --screen: #111;

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./global2.css" />
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./index2.css" />
-	<script src="script.js"></script>
+
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Source Code Pro:wght@400;800&display=swap"
@@ -17,7 +17,7 @@
   <body>
     <div class="web">
       <div class="hero" id="hero">
-        <div class="ai-and-automation-parent">
+        <div class="text">
           <div class="ai-and-automation">AI and Automation</div>
           <div class="information-technology-service">
             information technology services
@@ -26,43 +26,48 @@
           <div class="web-development">web development</div>
           <div class="game-development">game development</div>
         </div>
-        <div class="hero-inner">
-          <div class="title-parent">
-            <div class="title1">
-              <div class="title2">
-                <img
-                  class="innova-title-11"
-                  alt=""
-                  src="public/innova-title-11@2x.png"
-                />
-              </div>
-              <button class="contact-frame" id="action">
-                <div class="contact7">contact</div>
+        <div class="title-parent">
+          <div class="title1">
+            <div class="title2">
+              <img
+                class="innova-title-11"
+                alt=""
+                src="public/innova-title-11@2x.png"
+              />
+            </div>
+            <button class="action" id="action">
+              <div class="contact3">contact</div>
+            </button>
+          </div>
+          <div class="frame-parent" id="catalog">
+            <div class="action-parent">
+              <button class="action1"><div class="option">innova</div></button>
+              <div class="frame-child"></div>
+              <button class="action2" id="action2">
+                <div class="contact3">contact</div>
               </button>
             </div>
-            <div class="group-container" id="catalog">
-              <div class="rectangle-group">
-                <div class="group-item"></div>
-                <div class="our-products1">our products</div>
-              </div>
+            <div class="rectangle-parent">
+              <div class="group-child"></div>
+              <div class="our-products">our products</div>
+            </div>
+            <div class="frame-group">
               <nav class="action-group" id="categories">
-                <button class="contact-frame">
-                  <div class="contact7">games</div></button
-                ><button class="contact-frame">
-                  <div class="contact7">apps</div></button
-                ><button class="contact-frame">
-                  <div class="contact7">business</div>
+                <button class="action"><div class="contact3">games</div></button
+                ><button class="action"><div class="contact3">apps</div></button
+                ><button class="action">
+                  <div class="contact3">business</div>
                 </button>
               </nav>
-			  <div id="products">
-				<div id="item1" class="contact-frame">
+              <div class="frame-child" id="products">
+				<div id="item1" class="action">
 					<img class="item-image" src="https://itsoasi.com/static/components/portfolio/candy_kitty/poster.png" alt="">
 					<div style="margin-left: 1em;">
 						<a class="item-link" href="https://itsoasi.github.io/candy_kitty/">Candy Kitty</a>
 						<p class="item-desc" class="contact7">Endless platformer where you collect candy, fight snakes, and run as far as you can to unlock new characters</p>
 					</div>
 				</div>
-				<div id="item2" class="contact-frame">
+				<div id="item2" class="action">
 					<img class="item-image" src="https://www.cnet.com/a/img/resize/71e3283aa74252f7d6d750b74b674245d586dcb1/hub/2014/07/28/34c579b3-48d0-41df-899a-16c542abe508/ait-ps2-promo-1.jpg?auto=webp&fit=crop&height=675&width=1200" alt="">
 					<div style="margin-left: 1em;">
 						<a class="item-link" href="https://itsoasi.github.io/ps2_ui_remix/">PS2 UI Remix</a>
@@ -74,25 +79,53 @@
           </div>
         </div>
       </div>
-      <div class="contact11" id="contact" data-scroll-to="contact">
-        <div class="contact-child">
-          <div class="chat-with-us-group">
-            <div class="chat-with-us1">chat with us:</div>
-            <button class="icon-twitter-group">
-              <img
-                class="icon-twitter1"
-                alt=""
-                src="public/-icon-twitter1.svg"
-              />
-              <div class="contact7">twitter</div></button
-            ><button class="icon-twitter-group">
-              <img
-                class="icon-instagram1"
-                alt=""
-                src="public/-icon-instagram1.svg"
-              />
-              <div class="contact7">instagram</div>
-            </button>
+      <div class="contact8" id="contact" data-scroll-to="contact">
+        <div class="chat-with-us-group">
+          <div class="chat-with-us1">chat with us:</div>
+          <button class="icon-twitter-group">
+            <img class="icon-twitter1" alt="" src="public/-icon-twitter.svg" />
+            <div class="contact3">twitter</div></button
+          ><button class="icon-twitter-group">
+            <img
+              class="icon-instagram1"
+              alt=""
+              src="public/-icon-instagram1.svg"
+            />
+            <div class="contact3">instagram</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="contactContainer" class="popup-overlay">
+      <div class="contact">
+        <div class="title">
+          <img
+            class="innova-title-1"
+            alt=""
+            src="public/innova-title-1@2x.png"
+          />
+        </div>
+        <div class="contact1" id="contact">
+          <div class="contact-inner">
+            <div class="chat-with-us-parent">
+              <div class="chat-with-us">chat with us:</div>
+              <button class="icon-twitter-parent">
+                <img
+                  class="icon-twitter"
+                  alt=""
+                  src="public/-icon-twitter.svg"
+                />
+                <div class="twitter">twitter</div></button
+              ><button class="icon-twitter-parent">
+                <img
+                  class="icon-instagram"
+                  alt=""
+                  src="public/-icon-instagram.svg"
+                />
+                <div class="twitter">instagram</div>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -108,6 +141,25 @@
           }
         });
       }
+      
+      var action1 = document.getElementById("action2");
+	  if (action1) {
+	    action1.addEventListener("click", function () {
+			var popup = document.getElementById("contactContainer");
+			if (!popup) return;
+			popup.classList.add("closeable");
+			var onClick =
+			popup.onClick ||
+			function (e) {
+				if (e.target === popup && popup.classList.contains("closeable")) {
+					popup.classList.remove("closeable");
+				
+				}
+			};
+			popup.addEventListener("click", onClick);
+	    });
+	  }
+
       </script>
   </body>
 </html>
