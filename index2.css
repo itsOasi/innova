@@ -1,11 +1,11 @@
 .title-parent {
 	position: absolute;
 	height: min-content;
-	top: 0vw;
 	flex-direction: row;
 	justify-content: flex-start;
-	padding-top: 0%;
-	padding-left: 50vw;
+	margin-top: 1em;
+	gap: 20vw;
+	margin-left: 50%;
 	transform: translateX(-50%);
 }
 
@@ -13,7 +13,7 @@
 	display: none;
 }
 #catalog {
-	width: 50vw;
+	width: 20em;
 }
 .action-group{
 	display: none;
@@ -117,18 +117,15 @@
 	.action-parent {
 		display: flex;
 		align-items: flex-start;
+		min-height: 1.5em;
 	}
 	.text{
 		display: none;
 	}
-	.title-parent{
-		padding: 0%;
-		transform: none;
-	}
 	#catalog{
 		position: absolute;
 		width: 100vw;
-		height: 100vw;
+		height: 100vh;
 		margin: 0%;
 		left: 0%;
 		top: 0%;
@@ -155,6 +152,9 @@
 	}
 	  
 	.title-parent{
+		margin-left: 0%;
+		padding: 0%;
 		left: 0%;
+		transform: none;
 	}
 }
