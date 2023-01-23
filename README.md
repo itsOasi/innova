@@ -1,5 +1,4 @@
 
   # innova
 ---
-  
-  # tech on the edge
+tech on the edge
