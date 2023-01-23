@@ -157,4 +157,19 @@
 		left: 0%;
 		transform: none;
 	}
+	div.action{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		width: 100%;
+	}
+	div.action >img {
+		max-width: 3em;
+	}
+	.item-desc{
+		font-size: small;
+		font-weight: bold;
+		width: 30em;
+	}
+	
 }
