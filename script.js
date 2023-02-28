@@ -1,4 +1,4 @@
-const HOST = "http://localhost:8000"
+const HOST = "https://innova-server-2jochkae6a-uc.a.run.app"
 
 let http = {
 	get: async(url) =>
