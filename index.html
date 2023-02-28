@@ -45,9 +45,9 @@
             <div class="action-parent">
               <button class="action1"><div class="option">innova</div></button>
               <div class="frame-child"></div>
-              <button class="action2" id="action2">
+              <a class="action2" id="action2" href="#contact">
                 <div class="contact3">contact</div>
-              </button>
+			  </a>
             </div>
             <div class="rectangle-parent">
               <div class="group-child"></div>
@@ -55,41 +55,12 @@
             </div>
             <div class="frame-group">
               <nav class="action-group" id="categories">
-                <button class="action"><div class="contact3">games</div></button
-                ><button class="action"><div class="contact3">apps</div></button
-                ><button class="action">
-                  <div class="contact3">business</div>
-                </button>
+                <button class="action"><div class="contact3">games</div></button>
+				<button class="action"><div class="contact3">apps</div></button>
+				<button class="action"><div class="contact3">business</div></button>
               </nav>
               <div class="frame-child" id="products">
-				<div id="candy_kitty" class="action">
-					<img class="item-image" src="https://itsoasi.com/static/components/portfolio/candy_kitty/poster.png" alt="">
-					<div>
-						<a class="item-link" href="https://itsoasi.github.io/candy_kitty/">Candy Kitty</a>
-						<p class="item-desc" class="contact7">Endless platformer where you collect candy, fight snakes, and run as far as you can to unlock new characters!</p>
-					</div>
-				</div>
-				<div id="budget" class="action">
-					<img class="item-image" src="https://th.bing.com/th/id/OIP.0G366AcTTkglKG3ZMBc-1gHaGe?w=206&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
-					<div>
-						<a class="item-link" href="https://codepen.io/itsOasi/full/OJoXQor">Budget Calculator</a>
-						<p class="item-desc" class="contact7">Manage your fincances and plan ahead with our simple budget calculator. </p>
-					</div>
-				</div>
-				<div id="roseling" class="action">
-					<img class="item-image" src="https://itsoasi.github.io/roseling_gd/static/logo%20full%2022_12_6.png" alt="">
-					<div>
-						<a class="item-link" href="https://itsoasi.github.io/roseling_gd/">Roseling Graphic Design</a>
-						<p class="item-desc" class="contact7">The amazing graphics team that designed our website. We're working together on some really cool things, so stay tuned!</p>
-					</div>
-				</div>
-				<div id="consulting" class="action">
-					<img class="item-image" src="https://itsoasi.com/public/unsplash-sg8nxmpwdm@2x.png" alt="">
-					<div>
-						<a class="item-link" href="https://itsoasi.com">itsoasi.com</a>
-						<p class="item-desc" class="contact7">The engineer behind it all! Mysteriously working out of his LED lit bedroom, he meticulously orchestrates the infrastructure for his clients and colleagues. View his resume and certs here! (or get your pc fixed!)</p>
-					</div>
-				</div>
+				
 			  </div>
             </div>
           </div>
@@ -147,35 +118,6 @@
       </div>
     </div>
 
-    <script>
-      var action = document.getElementById("action");
-      if (action) {
-        action.addEventListener("click", function () {
-          var anchor = document.querySelector("[data-scroll-to='contact']");
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
-        });
-      }
-      
-      var action1 = document.getElementById("action2");
-	  if (action1) {
-	    action1.addEventListener("click", function () {
-			var popup = document.getElementById("contactContainer");
-			if (!popup) return;
-			popup.classList.add("closeable");
-			var onClick =
-			popup.onClick ||
-			function (e) {
-				if (e.target === popup && popup.classList.contains("closeable")) {
-					popup.classList.remove("closeable");
-				
-				}
-			};
-			popup.addEventListener("click", onClick);
-	    });
-	  }
-
-      </script>
+    <script src="./script.js"></script>
   </body>
 </html>
