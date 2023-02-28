@@ -1,3 +1,5 @@
+const HOST = "http://localhost:8000"
+
 let http = {
 	get: async(url) =>
 	{
@@ -59,12 +61,12 @@ function create_catalog_item(product_obj){
 }
 
 document.body.onload = async function(){
-	let res = await http.get("http://localhost:8000/get_all")
+	let res = await http.get(`${HOST}/get_catalog`)
 	let catalog = await res.json()
 	console.log(catalog)
 	let catalog_list = document.querySelector("#products")
-	for (_prod in catalog["catalog.json"]){
-		add_product(catalog["catalog.json"][_prod])
+	for (_prod in catalog){
+		add_product(catalog[_prod])
 	}
 	for (prod in products){
 		catalog_list.append(create_catalog_item(products[prod]))
@@ -82,7 +84,6 @@ var action1 = document.getElementById("action2");
 			function (e) {
 				if (e.target === popup && popup.classList.contains("closeable")) {
 					popup.classList.remove("closeable");
-				
 				}
 			};
 			popup.addEventListener("click", onClick);
