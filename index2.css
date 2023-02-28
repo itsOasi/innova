@@ -72,18 +72,31 @@
 	flex-direction: row;
 	justify-content: space-between;
 	gap: .25em;
+	width: 100%;
 }
 
-.item-image{
-	min-width: 3em;
+.item-img{
+	min-width: 15vw;
 	margin: 0%;
+}
+.details{
+	width: 100%;
+	color: var(--screen);
 }
 .item-desc{
 	font-size: medium;
 	font-weight: bold;
+	text-decoration: none;
 	width: 30em;
 }
-
+.item-title{
+	font-size: larg;
+	font-weight: bolder;
+	width: 20em;
+}
+a{
+	text-decoration: none;
+}
 #contactContainer, .popup-overlay{
 	display: none;
 	position: absolute;
@@ -128,9 +141,6 @@
 		height: 100vh;
 	}
 	.our-products{
-		font-size: large;
-	}
-	.item-link{
 		font-size: large;
 	}
 	.frame-parent{
@@ -179,13 +189,13 @@
 		left: 0%;
 		transform: none;
 	}
-	div.action{
+	.action{
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
 		width: 100%;
 	}
-	div.action >img {
+	.action >img {
 		max-width: 3em;
 	}
 	.item-desc{
