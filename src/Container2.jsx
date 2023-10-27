@@ -6,15 +6,17 @@ function Container2() {
   const [count, setCount] = useState(0)
 
   return (
-	<>
+	<div>
 		<div className='catalog_header'>
-			<h1>Our Apps</h1>
+			<b>
+				Our Apps
+			</b>
 		</div>
 		<div id="catalog" className='col container'>
 			<Filter />
 			<Catalog />
 		</div>
-	</>
+	</div>
   )
 }
 
