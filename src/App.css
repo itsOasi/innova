@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  gap: 4.8rem;
+  gap: 2rem;
   overflow-x: hidden;
 }
 
@@ -67,6 +67,7 @@
 	flex-wrap: wrap;
 }
 .nav{
+	align-items: end;
 	gap: 2rem;
 }
 .icon{
@@ -99,6 +100,7 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	transition: all .5s;
+	overflow: hidden;
 	&:hover{
 		transform: scale(110%);
 	}
@@ -111,6 +113,7 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	transition: all 1s;
+	overflow: hidden;
 	&:hover{
 		transform: scale(105%);
 	}
