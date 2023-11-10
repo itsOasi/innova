@@ -27,7 +27,7 @@ function CatalogItem(props) {
 			</a>
 
 			{modal && (<div>
-				<ItemModal name={props.name} src={props.src} desc={props.desc} modalClick={toggleModal}></ItemModal>
+				<ItemModal name={props.name} src={props.src} desc={props.desc} link={props.link} modalClick={toggleModal}></ItemModal>
 			</div>)}
 		</>
 	)

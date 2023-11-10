@@ -26,7 +26,7 @@ function ItemModal(props) {
 								<Button msg={<Icons.Chat className='chat' />}></Button>
 								<Button msg={<Icons.Share className='chat' />}></Button>
 							</div>
-							<Button action="true" msg="Buy Merch"></Button>
+							<Button action="true" href={props.link} msg="Check it out!"></Button>
 						</div>
 					</div>
 				</div>

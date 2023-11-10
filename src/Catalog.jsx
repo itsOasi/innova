@@ -31,7 +31,8 @@ function Catalog() {
 					key={piece.title}
 					name={piece.title} 
 					desc={piece.desc}
-					src={piece.image} />)}
+					src={piece.image}
+					link={piece.link} />)}
 				</div>
 			</>
 		)
